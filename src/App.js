@@ -9,6 +9,9 @@ import Home from './pages/Home';
 // import useAppGlobalContext custom hook
 import { useAppGlobalContext } from './context';
 
+// import footer
+import Footer from './components/Footer';
+
 function App() {
   // app global context
   const appContext = useAppGlobalContext();
@@ -21,6 +24,8 @@ function App() {
         <Route path='/' element={<Home/>}></Route>  
       </Routes>
 
+      {/* footer */}
+      <Footer/>
     </Router>
   );
 }
