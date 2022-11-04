@@ -11,7 +11,7 @@ function Sidebar() {
     const {isOPenMenu, closeMenu} = useContext(HeaderContext);
 
     return (
-        <div className={`sidebar ${isOPenMenu === true ? 'show' : 'hide'}`}>
+        <div id='sidebar' className={`${isOPenMenu === true ? 'show' : 'hide'}`}>
             <div className='container mx-auto px-3'>
 
                 {/* header */}
