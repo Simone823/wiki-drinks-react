@@ -28,3 +28,9 @@ a {
   text-decoration: none;
 }
 /* -------------------------------- */
+
+
+/* section */
+section {
+  min-height: 86vh;
+}

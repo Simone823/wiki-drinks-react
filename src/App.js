@@ -12,6 +12,9 @@ import Header from './components/Header';
 // import pags home
 import Home from './pages/Home';
 
+// import not found pages
+import NotFound from './pages/NotFound';
+
 // import footer
 import Footer from './components/Footer';
 
@@ -24,10 +27,13 @@ function App() {
       {/* header */}
       <Header/>
 
-      {/* routes */}
-      <Routes>
-        <Route path='/' element={<Home/>}></Route>  
-      </Routes>
+      <main>
+        {/* routes */}
+        <Routes>
+          <Route path='/' element={<Home/>}></Route>  
+          <Route path='*' element={<NotFound/>}></Route>
+        </Routes>
+      </main>
 
       {/* footer */}
       <Footer/>

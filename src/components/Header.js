@@ -28,7 +28,7 @@ function Header() {
     return (
         // header
         <HeaderContext.Provider value={{isOPenMenu, closeMenu}}>
-            <header className='h-20 flex items-center'>
+            <header className='h-20 flex items-center shadow-md'>
                 <div className='container mx-auto px-3'>
                     <div className='wrapper flex justify-between items-center'>
 
