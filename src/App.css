@@ -33,4 +33,5 @@ a {
 /* section */
 section {
   min-height: 86vh;
+  position: relative;
 }
