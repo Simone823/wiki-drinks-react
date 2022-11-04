@@ -1,5 +1,5 @@
 import React, {useState, createContext} from 'react';
-import '../assets/css/header.css'
+import '../assets/css/components/header.css';
 
 import {Link} from 'react-router-dom';
 
@@ -104,4 +104,4 @@ function Header() {
     )
 }
 
-export default Header
+export default Header;

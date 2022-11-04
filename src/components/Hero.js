@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/css/hero.css';
+import '../assets/css/components/hero.css';
 
 function Hero({children, img, isOverlay}) {
 

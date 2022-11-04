@@ -1,5 +1,5 @@
 import React, {useContext} from 'react';
-import '../assets/css/sidebar.css';
+import '../assets/css/components/sidebar.css';
 import { Link } from 'react-router-dom';
 
 // import header context
@@ -84,4 +84,4 @@ function Sidebar() {
     )
 }
 
-export default Sidebar
+export default Sidebar;
