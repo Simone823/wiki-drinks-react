@@ -2,7 +2,6 @@ import React from 'react';
 import '../assets/css/hero.css';
 
 function Hero({children, img, isOverlay}) {
-    console.log(img)
 
   return (
     <div id='hero' style={
