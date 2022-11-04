@@ -51,16 +51,16 @@
 
 
 /* list links menu */
-.list-links li:hover {
+.sidebar .list-links li:hover {
     cursor: pointer;
 }
 
-.list-links li:hover .nav-link {
+.sidebar .list-links li:hover .nav-link {
     color: rgb(236 72 153);
     transition: color 300ms ease-in-out;
 }
 
-.list-links li:hover .nav-icon {
+.sidebar .list-links li:hover .nav-icon {
     color: rgb(236 72 153);
     transform: scale(1.08);
     transition: all 300ms ease-in-out;
@@ -79,4 +79,11 @@
     transform: scale(1.08);
     color: rgb(236 72 153);
     transition: all 300ms ease-in-out;
+}
+
+/* media queries */
+@media screen and (min-width: 768px) {
+    .sidebar {
+        display: none !important;
+    }
 }
