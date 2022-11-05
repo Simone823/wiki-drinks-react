@@ -29,6 +29,18 @@ a {
 }
 /* -------------------------------- */
 
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: rgb(76 29 149);
+}
+
+::-webkit-scrollbar-thumb {
+  width: 6px;
+  background-color: rgb(236 72 153);
+  border-radius: 5px;
+}
+
 
 /* section */
 section {
