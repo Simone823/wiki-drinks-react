@@ -50,7 +50,7 @@ function Header() {
                                         </path>
                                     </g>
                                 </svg>
-                                <Link to="/" className='nav-link font-bold uppercase text-sm'>Chi Siamo</Link>
+                                <Link to="/about" className='nav-link font-bold uppercase text-sm'>Chi Siamo</Link>
                             </li>
                             <li className='flex items-center gap-x-4'>
                                 <svg stroke="currentColor" fill="currentColor" viewBox="0 0 1024 1024" className="nav-icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
