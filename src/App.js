@@ -12,6 +12,9 @@ import Header from './components/Header';
 // import pags home
 import Home from './pages/Home';
 
+// import about pages
+import About from './pages/About';
+
 // import not found pages
 import NotFound from './pages/NotFound';
 
@@ -30,7 +33,8 @@ function App() {
       <main>
         {/* routes */}
         <Routes>
-          <Route path='/' element={<Home/>}></Route>  
+          <Route path='/' element={<Home/>}></Route>
+          <Route path='/about' element={<About/>}></Route>  
           <Route path='*' element={<NotFound/>}></Route>
         </Routes>
       </main>
