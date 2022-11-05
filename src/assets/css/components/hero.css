@@ -16,3 +16,33 @@
     background-color: rgba(0, 0, 0, 0.75);
     color: white;
 }
+
+#hero .hero-text-about h3{
+    position:relative;
+}
+
+#hero .hero-text-about h3::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    height: 2px;
+    background-color: rgb(236 72 153);
+    border-radius: 50%;
+}
+
+#hero .hero-text-about h3::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    height: 2px;
+    background-color: rgb(236 72 153);
+    border-radius: 50%;
+}
