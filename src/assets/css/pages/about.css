@@ -24,3 +24,9 @@
     transition: all 300ms ease-in-out;
 }
 
+#about .about-team .team-img img {
+    object-fit: cover;
+    object-position: center;
+    clip-path: polygon(0 0, 100% 0, 100% 77%, 0% 100%);
+}
+
