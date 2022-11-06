@@ -3,6 +3,14 @@
 @tailwind components;
 @tailwind utilities;
 
+/* root */
+:root {
+  --white: white;
+  --pink-500: rgb(236 72 153);
+  --violet-900: rgb(76 29 149);
+  --black-075: rgba(0, 0, 0, 0.75);
+}
+
 /* reset */
 * {
   margin: 0;
@@ -32,12 +40,12 @@ a {
 /* scrollbar */
 ::-webkit-scrollbar {
   width: 6px;
-  background-color: rgb(76 29 149);
+  background-color: var(--violet-900);
 }
 
 ::-webkit-scrollbar-thumb {
   width: 6px;
-  background-color: rgb(236 72 153);
+  background-color: var(--pink-500);
   border-radius: 5px;
 }
 

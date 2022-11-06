@@ -2,7 +2,7 @@
 .nav-icon {
     stroke-width: 0;
     font-size: 22px;
-    color: rgb(76 29 149);
+    color: var(--violet-900);
 }
 
 /* list links menu */
@@ -11,12 +11,12 @@
 }
 
 .list-links-menu li:hover .nav-link {
-    color: rgb(236 72 153);
+    color: var(--pink-500);
     transition: color 300ms ease-in-out;
 }
 
 .list-links-menu li:hover .nav-icon {
-    color: rgb(236 72 153);
+    color: var(--pink-500);
     transform: scale(1.08);
     transition: all 300ms ease-in-out;
 }
@@ -24,7 +24,7 @@
 /* social list */
 .social-list li .nav-icon:hover {
     transform: scale(1.08);
-    color: rgb(236 72 153);
+    color: var(--pink-500);
     transition: all 300ms ease-in-out;
 }
 
