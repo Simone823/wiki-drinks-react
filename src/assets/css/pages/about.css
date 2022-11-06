@@ -1,0 +1,26 @@
+/* about */
+#about .about .cards-wrapper .wrapper-icon {
+    color: var(--pink-500);
+}
+
+#about .about .cards-wrapper .card {
+    background-color: var(--white);
+}
+
+#about .about .cards-wrapper .card .card-text {
+    color: var(--gray-500);
+}
+
+#about .about .cards-wrapper .card:hover {
+    background-color: var(--violet-900);
+    color: var(--white);
+    transform: scale(1.03);
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+}
+
+#about .about .cards-wrapper .card:hover .card-text {
+    color: var(--white);
+    transition: all 300ms ease-in-out;
+}
+
