@@ -15,6 +15,9 @@ import Home from './pages/Home';
 // import about pages
 import About from './pages/About';
 
+// import contact pages
+import Contact from './pages/Contact';
+
 // import not found pages
 import NotFound from './pages/NotFound';
 
@@ -35,6 +38,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>}></Route>
           <Route path='/about' element={<About/>}></Route>  
+          <Route path='/contact' element={<Contact/>}></Route>
           <Route path='*' element={<NotFound/>}></Route>
         </Routes>
       </main>
