@@ -14,7 +14,7 @@ function Contact() {
         <Hero img={contactHero} isOverlay={false}>
             <div className='container mx-auto pt-4 pb-16 px-3'>
                 {/* title */}
-                <h2 className='font-bold text-center text-3xl mt-12 mb-4'>Vorresti aggiungere un cocktail?</h2>
+                <h2 className='font-bold text-center text-3xl mt-10 mb-4'>Vorresti aggiungere un cocktail?</h2>
                 <h6 className='text-center max-w-sm mx-auto text-gray-500 mb-8'>Il nostro team è sempre disponibile per valutare possibili nuove ricette ed ad aggiungerle alla nostro database</h6>
 
                 {/* form */}
