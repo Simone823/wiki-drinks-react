@@ -55,7 +55,7 @@ function About() {
       {/* about team */}
       <div className='about-team'>
         {/* image team */}
-        <div className='team-img h-96'>
+        <div className='team-img'>
           <img className='w-full' src={require('../assets/image/team-img.jpg')} alt='team-img'/>
         </div>
 
