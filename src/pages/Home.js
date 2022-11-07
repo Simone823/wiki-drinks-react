@@ -16,8 +16,8 @@ function Home() {
     <section id='home'>
       {/* hero */}
       <Hero img={heroHome} isOverlay={true}>
-        <div className='container mx-auto h-full flex items-center'>  
-          <div className='wrapper grid grid-cols-1 md:grid-cols-2 place-items-center gap-8'>
+        <div className='container mx-auto h-full'>  
+          <div className='wrapper h-full grid grid-cols-1 md:grid-cols-2 place-items-center md:justify-center gap-8'>
             {/* home hero text  */}
             <div className='hero-text-home'>
               <h2 className='bran-name uppercase text-pink-500 text-3xl font-bold mb-4'>Wiki Drink</h2>
