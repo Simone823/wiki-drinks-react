@@ -18,7 +18,7 @@ function Contact() {
                 <h6 className='text-center max-w-sm mx-auto text-gray-500 mb-8'>Il nostro team è sempre disponibile per valutare possibili nuove ricette ed ad aggiungerle al nostro database</h6>
 
                 {/* form */}
-                <form className='card bg-white py-8 px-6 md:px-16 rounded-md shadow-2xl shadow-black/50 max-w-5xl mx-auto'>
+                  <form action="https://formspree.io/f/mkneknyn" method="POST" className='card bg-white py-8 px-6 md:px-16 rounded-md shadow-2xl shadow-black/50 max-w-5xl mx-auto'>
                     {/* name */}
                     <div className='form-group flex flex-col gap-y-1 mb-6'>
                         <label htmlFor='name' className='text-violet-900 uppercase font-bold text-sm'>Nome</label>
