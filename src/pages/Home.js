@@ -16,7 +16,7 @@ function Home() {
     <section id='home'>
       {/* hero */}
       <Hero img={heroHome} isOverlay={true}>
-        <div className='container mx-auto h-full'>  
+        <div className='container mx-auto h-full overflow-hidden'>  
           <div className='wrapper h-full grid grid-cols-1 md:grid-cols-2 place-items-center gap-8'>
             {/* home hero text  */}
             <div className='hero-text-home'>
