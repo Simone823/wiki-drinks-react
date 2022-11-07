@@ -22,31 +22,31 @@ function Contact() {
                     {/* name */}
                     <div className='form-group flex flex-col gap-y-1 mb-6'>
                         <label htmlFor='name' className='text-violet-900 uppercase font-bold text-sm'>Nome</label>
-                        <input className='text-xs py-2 text-gray-500' type='text' name='name' id='name' placeholder='Inserisci il tuo nome' />
+                        <input className='text-xs py-2 text-gray-500' type='text' name='name' id='name' placeholder='Inserisci il tuo nome' required minLength='4' maxLength='35'/>
                     </div>
                     
                     {/* surname */}
                     <div className='form-group flex flex-col gap-y-1 mb-6'>
                         <label htmlFor='surname' className='text-violet-900 uppercase font-bold text-sm'>Cognome</label>
-                        <input className='text-xs py-2 text-gray-500' type='text' name='surname' id='surname' placeholder='Inserisci il tuo cognome' />
+                        <input className='text-xs py-2 text-gray-500' type='text' name='surname' id='surname' placeholder='Inserisci il tuo cognome' required minLength='4' maxLength='35'/>
                     </div>
 
                     {/* email */}
                     <div className='form-group flex flex-col gap-y-1 mb-6'>
                         <label htmlFor='email' className='text-violet-900 uppercase font-bold text-sm'>Email</label>
-                        <input className='text-xs py-2 text-gray-500' type='email' name='email' id='email' placeholder='Inserisci la tua email' />
+                        <input className='text-xs py-2 text-gray-500' type='email' name='email' id='email' placeholder='Inserisci la tua email' required/>
                     </div>
 
                     {/* phone */}
                     <div className='form-group flex flex-col gap-y-1 mb-6'>
                         <label htmlFor='phone' className='text-violet-900 uppercase font-bold text-sm'>Telefono</label>
-                        <input className='text-xs py-2 text-gray-500' type='tel' name='phone' id='phone' placeholder='Inserisci il tuo n° di telefono' />
+                        <input className='text-xs py-2 text-gray-500' type='tel' name='phone' id='phone' placeholder='Inserisci il tuo n° di telefono' required pattern='^(\((00|\+)39\)|(00|\+)39)?(38[890]|34[4-90]|36[680]|33[13-90]|32[89]|35[01]|37[019])\d{6,7}$'/>
                     </div>
 
                     {/* text */}
                     <div className='form-group flex flex-col gap-y-1 mb-8'>
                         <label htmlFor='text' className='text-violet-900 uppercase font-bold text-sm'>La tua ricetta</label>
-                        <textarea className='text-xs py-2 text-gray-500 max-h-16 resize-none' id='text' name='text' placeholder='Descrivi la tua ricetta'></textarea>
+                        <textarea className='text-xs py-2 text-gray-500 max-h-16 resize-none' id='text' name='text' placeholder='Descrivi la tua ricetta' required></textarea>
                     </div>
 
                     {/* btn submit */}
