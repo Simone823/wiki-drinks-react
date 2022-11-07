@@ -1,0 +1,17 @@
+/* contact */
+
+#contact form .form-group input,
+#contact form .form-group textarea {
+    border: 0;
+    border-bottom: 2px solid;
+    border-bottom-color: var(--gray-300);
+}
+
+#contact form .form-group input:focus-visible,
+#contact form .form-group input:focus,
+#contact form .form-group textarea:focus-visible,
+#contact form .form-group textarea:focus {
+    outline-width: 0;
+    border-bottom-color: var(--violet-900);
+    transition: border-bottom-color 100ms ease-in-out;
+}

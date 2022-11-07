@@ -6,6 +6,7 @@
 /* root */
 :root {
   --white: white;
+  --gray-100: rgb(243 244 246);
   --gray-300: rgb(209 213 219);
   --gray-500: rgb(107 114 128);
   --pink-500: rgb(236 72 153);
