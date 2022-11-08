@@ -15,3 +15,9 @@
     transform: translateY(0);
     transition: transform 250ms ease-in-out;
 }
+
+@media screen and (max-width: 640px) {
+    .wrapper-cocktail .text {
+        transform: translateY(0%) !important;
+    }
+}

@@ -14,7 +14,7 @@ function Cocktail({id, name, image}) {
       </div>
 
       {/* hover container */}
-      <div className='text text-white w-full py-4 px-3 bg-black/80 flex justify-between items-center flex-wrap'>
+      <div className='text text-white w-full py-4 px-3 bg-black/80 flex gap-1 justify-between items-center flex-wrap'>
         <h6 className='font-bold text-sm'>{name}</h6>
         <Link to={`/cocktail/${id}`} className='font-bold text-xs text-pink-500 flex gap-2 hover:text-violet-500 duration-300 max-w-max'>
           Ricetta
