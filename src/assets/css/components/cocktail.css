@@ -1,0 +1,17 @@
+/* cocktail */
+.wrapper-cocktail {
+    position: relative;
+    overflow-y: hidden;
+    cursor: pointer;
+}
+
+.wrapper-cocktail .text {
+    position: absolute;
+    bottom: 0;
+    transform: translateY(100%);
+}
+
+.wrapper-cocktail:hover .text {
+    transform: translateY(0);
+    transition: transform 250ms ease-in-out;
+}
