@@ -10,7 +10,7 @@ function Cocktails({data}) {
             {data.map((el) => {
                 return(
                     <li key={el.idDrink} className='w-100 shadow-2xl shadow-black/50 rounded-sm overflow-hidden'>
-                        <Cocktail name={el.strDrink} image={el.strDrinkThumb}/>
+                        <Cocktail id={el.idDrink} name={el.strDrink} image={el.strDrinkThumb}/>
                     </li>
                 );
             })}
