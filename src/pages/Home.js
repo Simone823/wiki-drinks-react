@@ -1,6 +1,8 @@
-import React from 'react';
+import React, {useState} from 'react';
+import '../assets/css/pages/home.css';
 import { Link } from 'react-router-dom';
 import Lottie from 'lottie-react';
+import { IoIosSearch } from "react-icons/io";
 
 // import hero component
 import Hero from '../components/Hero';
@@ -12,6 +14,9 @@ import heroHome from '../assets/image/home-hero.jpg';
 import animationData from '../assets/animation/heroHome.json';
 
 function Home() {
+  // drink input set drink input
+  const [drinkInput, setDrinkInput] = useState('margarita');
+
   return (
     <section id='home'>
       {/* hero */}
@@ -43,6 +48,30 @@ function Home() {
           </div>
         </div>
       </Hero>
+
+      {/* container */}
+      <div className='container mx-auto px-3 py-8'>
+        {/* search bar */}
+        <div className='search-bar'>
+          <form className='flex items-center gap-4 flex-wrap'>
+            {/* drink */}
+            <label htmlFor='drink' className='font-bold text-lg'>Cerca il tuo drink</label>
+
+            {/* input & btn submit */}
+            <div className='input-search'>
+              <input onChange={(e) => setDrinkInput(e.target.value)} value={drinkInput} className='rounded-full py-2 px-4 text-xs text-gray-500' type='text' name='drink' id='drink' placeholder='Inserisci il nome del drink' /> 
+              
+              {/* btn submit */}
+              <button type='submit'>
+                <IoIosSearch className='text-xl text-pink-500'/>
+              </button>
+            </div>
+          </form>
+
+          {/* result */}
+          <h5 className='result text-xs font-bold text-gray-500'>Risultati: 0</h5>
+        </div>
+      </div>
     </section>
   )
 }

@@ -1,0 +1,22 @@
+/* home */
+#home .search-bar form .input-search {
+    position: relative;
+}
+
+#home .search-bar form .input-search input {
+    border: 1px solid;
+    border-color: var(--gray-500);
+    max-width: 100%;
+}
+
+#home .search-bar form .input-search button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+}
+
+#home .search-bar form .input-search input:focus-visible,
+#home .search-bar form .input-search input:focus {
+    outline-color: var(--gray-500);
+}
