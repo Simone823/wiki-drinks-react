@@ -67,7 +67,7 @@ function Home() {
       </Hero>
 
       {/* container */}
-      <div className='container mx-auto px-3 py-8'>
+      <div className='container mx-auto px-3 pt-8 pb-16'>
         {/* search bar */}
         <div className='search-bar mb-8'>
           <form onSubmit={onSubmit} className='flex items-center gap-4 flex-wrap'>
