@@ -1,0 +1,7 @@
+/* single cocktail */
+
+#single-cocktail .cocktail-detail .wrapper .cocktail-img {
+    max-width: 480px;
+    max-height: 480px;
+    aspect-ratio: 1/1;
+}
