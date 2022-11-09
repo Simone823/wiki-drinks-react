@@ -5,7 +5,7 @@ const useTitleDoc = (title) => {
     useEffect(() => {
         // change document title
         document.title = `Wiki Drinks React | ${title}`;
-    }, title);
+    }, [title]);
 }
 
 export default useTitleDoc;
