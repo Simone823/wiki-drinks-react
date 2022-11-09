@@ -2,6 +2,9 @@ import React from 'react';
 import '../assets/css/pages/singleCocktail.css';
 import {useParams, useNavigate} from 'react-router-dom';
 
+// import use title custom hook
+import useTitleDoc from '../customHook/useTitleDoc';
+
 // import useFetch custom hook
 import useFetch from '../customHook/useFetch';
 
@@ -17,6 +20,9 @@ function SingleCocktail() {
 
   // use fetch custom hook get cocktail id detail
   const {isLoading, isError, data} = useFetch(`i=${id}`);
+
+  // document title
+  useTitleDoc(data && data[0] ? data[0].strDrink : 'Not Found');
 
   return (
     <section id='single-cocktail'>

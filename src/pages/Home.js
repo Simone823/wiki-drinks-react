@@ -4,6 +4,9 @@ import { Link } from 'react-router-dom';
 import Lottie from 'lottie-react';
 import { IoIosSearch } from "react-icons/io";
 
+// import use title custom hook
+import useTitleDoc from '../customHook/useTitleDoc';
+
 // import hero component
 import Hero from '../components/Hero';
 
@@ -20,6 +23,9 @@ import { useAppGlobalContext } from '../context';
 import Cocktails from '../components/Cocktails';
 
 function Home() {
+  // document title
+  useTitleDoc('Home');
+
   // app global context
   const { queryCokctail, isLoading, isError, data, count, searchCocktail } = useAppGlobalContext();
 

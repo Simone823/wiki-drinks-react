@@ -1,6 +1,9 @@
 import React from 'react';
 import '../assets/css/pages/about.css';
 
+// import use title custom hook
+import useTitleDoc from '../customHook/useTitleDoc';
+
 // import hero component
 import Hero from '../components/Hero';
 
@@ -14,6 +17,9 @@ import {teamCards} from '../utils/info';
 import { valueCards } from '../utils/info';
 
 function About() {
+  // document title
+  useTitleDoc('Chi Siamo');
+
   return (
     <section id="about">
 

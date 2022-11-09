@@ -3,7 +3,13 @@ import {Link} from 'react-router-dom';
 import Lottie from "lottie-react";
 import animationData from '../assets/animation/notFound.json';
 
+// import use title custom hook
+import useTitleDoc from '../customHook/useTitleDoc';
+
 function NotFound() {
+  // document title
+  useTitleDoc('404');
+
   return (
     <section id="not-found">
         <div className='container mx-auto py-5 px-3 flex flex-col items-center gap-y-5'>
